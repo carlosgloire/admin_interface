@@ -5,12 +5,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 a{
     text-decoration: none;
 }
+
 ul{
     list-style: none;
 }
-p{
+
+h1{
     color: var(--skyblue);
+}
+
+html{
+    scroll-behavior: smooth;
 }
