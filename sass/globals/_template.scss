@@ -1,0 +1,6 @@
+@use '../utils/font';
+body{
+    width: 100%;
+    background-color: font (--$skyblue);
+    font-family: $fontf;
+}

@@ -1,0 +1,15 @@
+{
+    "json.schemas": [
+
+
+    ],
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "liveSassCompile.settings.autoprefix": [
+
+    ],
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
+}
