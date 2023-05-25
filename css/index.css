@@ -1,6 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+:root {
+  --skyblue: #bcd9e7;
+  --gray: #aaaaaa;
+  --ligt_green: #98c38b;
+  --light_red: #f37658;
+  --blending_blue: #5e3ec5;
+}
+
 body {
   width: 100%;
+  background-color: var(--skyblue);
+  font-family: "Sen", sans-serif;
 }
 
 *,
@@ -17,4 +26,8 @@ a {
 
 ul {
   list-style: none;
+}
+
+p {
+  color: var(--skyblue);
 }/*# sourceMappingURL=index.css.map */

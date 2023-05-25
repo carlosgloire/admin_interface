@@ -1,6 +1,6 @@
-@use '../utils/font';
+@use '../utils' as u;
 body{
     width: 100%;
-    background-color: font (--$skyblue);
-    font-family: $fontf;
+    background-color: var(--skyblue);
+    font-family: u.$font;
 }
