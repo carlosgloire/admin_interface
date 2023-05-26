@@ -11,15 +11,24 @@ a{
     color: var(--black);
     text-decoration: none;
     align-items: center;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 i{
-    font-size: 2em;
+    font-size: 1.3rem;
+    
 }
 
 h1{
     color: var(--skyblue);
+}
+
+button{
+    border: none;
+    padding: 6px 10px;
+    border-radius: 25px;
+    background-color: var(--gray);
+    margin-top: 200px;
 }
 
 html{

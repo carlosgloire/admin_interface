@@ -6,6 +6,7 @@
   --ligt_green: #98c38b;
   --light_red: #f37658;
   --blending_blue: #5e3ec5;
+  --bluehover: #94bfe9;
 }
 
 body {
@@ -20,6 +21,16 @@ section {
   padding: 20px;
 }
 
+.bloc-one div {
+  margin: 5px;
+  padding: 6px;
+}
+.bloc-one div:hover {
+  background-color: var(--bluehover);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
 *,
 ::before,
 ::after {
@@ -32,15 +43,23 @@ a {
   color: var(--black);
   text-decoration: none;
   align-items: center;
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 
 i {
-  font-size: 2em;
+  font-size: 1.3rem;
 }
 
 h1 {
   color: var(--skyblue);
+}
+
+button {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 25px;
+  background-color: var(--gray);
+  margin-top: 200px;
 }
 
 html {

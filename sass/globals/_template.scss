@@ -9,4 +9,17 @@ section{
     grid-template-columns: 20% auto;
     padding: 20px;
 }
+.bloc-one{
+    div{
+        margin: 5px;
+        padding: 6px;
+        &:hover{
+            background-color: var(--bluehover);
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+    }
 
+
+
+}
