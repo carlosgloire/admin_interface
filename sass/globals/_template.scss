@@ -4,3 +4,9 @@ body{
     background-color: var(--skyblue);
     font-family: u.$font;
 }
+section{
+    display: grid;
+    grid-template-columns: 20% auto;
+    padding: 20px;
+}
+
