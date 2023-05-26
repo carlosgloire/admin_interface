@@ -11,15 +11,14 @@ section{
 }
 .bloc-one{
     div{
-        margin: 5px;
+        margin: 10px;
         padding: 6px;
+
         &:hover{
             background-color: var(--bluehover);
+            border-left: 3px solid var(--blending_blue);
             border-top-left-radius: 5px;
             border-bottom-left-radius: 5px;
         }
     }
-
-
-
 }
