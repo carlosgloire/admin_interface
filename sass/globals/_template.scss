@@ -1,24 +1,39 @@
 @use '../utils' as u;
 body{
     width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
     background-color: var(--skyblue);
     font-family: u.$font;
+    background-image: url(../../Images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 section{
+    border-radius: 15px; 
+    width:85%;
     display: grid;
     grid-template-columns: 20% auto;
-    padding: 20px;
+    background-color: var(--principalcolor);
 }
 .bloc-one{
+    
+   box-shadow: 0px 0px 3px 0px var(--gray);
+    .dashboard{
+        background-color: var(--bluehover);
+        border-left: 3px solid var(--blending_blue);
+        border-radius: 5px;
+    }
     div{
         margin: 10px;
-        padding: 6px;
+        padding: 8px;
 
-        &:hover{
-            background-color: var(--bluehover);
-            border-left: 3px solid var(--blending_blue);
-            border-top-left-radius: 5px;
-            border-bottom-left-radius: 5px;
+        &:hover {
+            @extend .dashboard;
         }
     }
 }
