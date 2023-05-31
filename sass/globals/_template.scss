@@ -65,10 +65,14 @@ section{
         width: 40px; 
     }
 }
-.bloc_inter{
+.bloc-grid-template{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px;
     padding: 15px;
+}
+.bloc_inter{
     .inter1{
-        width: 45%;
         text-align: center;
         padding: 15px;
         background-color: var(--white);
@@ -87,7 +91,7 @@ section{
 }
 .tableau{
     @extend .inter1;
-    margin-top: 20px;
+    margin-top: 15px;
     .tableau_p{
         @extend .next_level
     }
@@ -97,5 +101,17 @@ table{
     margin-top: 20px;
     tbody th, td{
         padding: 8px;
+    }
+}
+.blocks{
+    text-align: center;
+    padding: 10px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 3px 0px var(--bluehover);
+    border-radius: 10px;
+    .bloc-display-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
