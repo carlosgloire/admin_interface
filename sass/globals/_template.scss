@@ -115,3 +115,15 @@ table{
         justify-content: space-between;
     }
 }
+.possession{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 3px 0px var(--bluehover);
+    border-radius: 10px;
+    margin-top: 15px;
+}
