@@ -80,6 +80,27 @@ section {
 .bloc_inter {
   padding: 15px;
 }
+.bloc_inter .inter1 {
+  width: 45%;
+  text-align: center;
+  padding: 20px;
+}
+.bloc_inter .next_level, .bloc_inter .tableau .tableau_p, .tableau .bloc_inter .tableau_p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tableau {
+  padding: 20px;
+  width: 45%;
+  margin-top: 30px;
+}
+.table {
+  width: 100%;
+}
+.table th, .table td {
+  padding: 10px 5px;
+}
 
 *,
 ::before,

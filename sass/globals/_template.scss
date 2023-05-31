@@ -67,4 +67,27 @@ section{
 }
 .bloc_inter{
     padding: 15px;
+    .inter1{
+        width: 45%;
+        text-align: center;
+        padding: 20px;
+    }
+     .next_level{
+        display: flex;
+        justify-content: space-between;
+     }
+}
+.tableau{
+    padding: 20px;
+    width: 45%;
+    margin-top: 30px;
+    .tableau_p{
+        @extend .next_level
+    }
+}
+.table{
+    width: 100%;
+    th, td{
+        padding: 10px 5px;
+    }
 }
