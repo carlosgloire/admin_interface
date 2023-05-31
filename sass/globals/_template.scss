@@ -103,13 +103,14 @@ table{
         padding: 8px;
     }
 }
-.bloc-result1{
+.bloc-result{
+    display: grid;
     grid-template-areas: 
-    "A"
+    "A A"
     "B C"
     "D E"
-    "F"
-    ;
+    "F F";
+    grid-template-columns: 100% 6fr;
 }
 .blocks{
     text-align: center;
@@ -118,6 +119,7 @@ table{
     box-shadow: 0px 0px 3px 0px var(--bluehover);
     border-radius: 10px;
     grid-area: A;
+
     .bloc-display-flex{
         display: flex;
         flex-direction: row;
@@ -143,7 +145,6 @@ table{
     display: flex;
     flex-direction: row;
     gap: 20px;
-    width: 50%;
     align-items: center;
     justify-content: center;
     padding: 10px;

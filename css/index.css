@@ -110,8 +110,10 @@ table tbody th, table td {
   padding: 8px;
 }
 
-.bloc-result1 {
-  grid-template-areas: "A" "B C" "D E" "F";
+.bloc-result {
+  display: grid;
+  grid-template-areas: "A A" "B C" "D E" "F F";
+  grid-template-columns: 100% 6fr;
 }
 
 .blocks {
@@ -152,7 +154,6 @@ table tbody th, table td {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  width: 50%;
   align-items: center;
   justify-content: center;
   padding: 10px;
