@@ -129,7 +129,9 @@ table{
 }
 .shedule-match{
     @extend .possession;
+    color: white;
     background-image: url(../../Images/background_football.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
