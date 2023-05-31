@@ -116,7 +116,9 @@ table{
     }
 }
 .bloc-result{
-    
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
 }
 .possession,.average,.win-possession,.trafert-badget{
     display: flex;
