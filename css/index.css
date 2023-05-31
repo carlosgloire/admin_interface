@@ -145,6 +145,11 @@ table tbody th, table td {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.shedule-match div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
 
 *,
 ::before,

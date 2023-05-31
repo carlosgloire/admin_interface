@@ -135,4 +135,10 @@ table{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    div{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
 }
