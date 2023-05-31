@@ -123,7 +123,7 @@ table tbody th, table td {
   justify-content: space-between;
 }
 
-.possession, .shedule-match, .average, .win-possession, .trafert-badget {
+.possession, .average, .win-possession, .trafert-badget {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -138,6 +138,8 @@ table tbody th, table td {
 
 .shedule-match {
   color: white;
+  border-radius: 10px;
+  padding: 10px;
   background-image: url(../../Images/background_football.jpg);
   background-position: center;
   background-size: cover;
