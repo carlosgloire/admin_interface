@@ -13,7 +13,7 @@
 
 body {
   width: 100%;
-  height: 130vh;
+  height: 110vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,10 +80,16 @@ section {
 .bloc_inter {
   padding: 15px;
 }
-.bloc_inter .inter1 {
+.bloc_inter .inter1, .bloc_inter .tableau {
   width: 45%;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
+  background-color: var(--white);
+  box-shadow: 0px 0px 3px 0px var(--bluehover);
+  border-radius: 10px;
+}
+.bloc_inter .inter1 p, .bloc_inter .tableau p {
+  margin-top: 15px;
 }
 .bloc_inter .next_level, .bloc_inter .tableau .tableau_p, .tableau .bloc_inter .tableau_p {
   display: flex;
@@ -91,15 +97,14 @@ section {
 }
 
 .tableau {
-  padding: 20px;
-  width: 45%;
-  margin-top: 30px;
+  margin-top: 20px;
 }
-.table {
+table {
   width: 100%;
+  margin-top: 20px;
 }
-.table th, .table td {
-  padding: 10px 5px;
+table tbody th, table td {
+  padding: 8px;
 }
 
 *,
