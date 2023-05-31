@@ -127,3 +127,6 @@ table{
     border-radius: 10px;
     margin-top: 15px;
 }
+.shedule-match{
+    @extend .possession
+}
