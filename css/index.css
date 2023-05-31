@@ -140,6 +140,7 @@ table tbody th, table td {
   color: white;
   border-radius: 10px;
   padding: 10px;
+  margin-top: 15px;
   background-image: url(../../Images/background_football.jpg);
   background-position: center;
   background-size: cover;
