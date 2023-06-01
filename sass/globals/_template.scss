@@ -39,6 +39,7 @@ section{
         padding: 8px;
         &:hover {
             @extend .dashboard;
+            transition: 0.5s;
         }
     }
 }
@@ -70,7 +71,6 @@ section{
     grid-template-columns: auto auto;
     grid-gap: 15px;
     padding: 15px;
-    
 }
 .bloc_inter{
     .inter1{
@@ -79,7 +79,6 @@ section{
             margin-top: 15px;
         }
     }
-
     .next_level{
         @include display_flex;
        
@@ -99,36 +98,21 @@ table{
         padding: 8px;
     }
 }
-.bloc-result{
-    display: grid;
-    grid-template-areas: 
-    "A A"
-    "B C"
-    "D E"
-    "F F";
-    grid-template-columns: 100% 6fr;
-}
+
 .blocks{
     @include blocks_part;
     .bloc-display-flex{
         @include display_flex;
     }
 }
-.possession{
-    grid-area: B;
+.bloc-result1{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
-.average{
-    grid-area: C;
+.second-child{
+    display: grid;
 }
-.win-possession{
-    grid-area: D;
-}
-.trafert-badget{
-    grid-area: E;
-}
-.shedule-match{
-    grid-area: F;
-}
+
 .possession,.average,.win-possession,.trafert-badget{
     @include blocks_part_mini;
 }
