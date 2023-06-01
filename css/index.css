@@ -13,7 +13,7 @@
 
 body {
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,7 +66,7 @@ section {
   display: flex;
   position: absolute;
   margin-top: -5px;
-  margin-right: 130px;
+  margin-right: 150px;
   align-items: center;
   right: 0;
   gap: 10px;
@@ -94,14 +94,21 @@ section {
 .bloc_inter .inter1 p, .bloc_inter .tableau p {
   margin-top: 15px;
 }
-.bloc_inter .next_level, .bloc_inter .tableau .tableau_p, .tableau .bloc_inter .tableau_p {
+.bloc_inter .next_level {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
 .tableau {
   margin-top: 15px;
 }
+.tableau .tableau_p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 table {
   width: 100%;
   margin-top: 20px;
@@ -118,11 +125,10 @@ table tbody th, table td {
 
 .blocks {
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   background-color: var(--white);
   box-shadow: 0px 0px 3px 0px var(--bluehover);
   border-radius: 10px;
-  grid-area: A;
 }
 .blocks .bloc-display-flex {
   display: flex;
@@ -206,9 +212,14 @@ h1 {
   border: none;
   padding: 10px 20px;
   border-radius: 25px;
-  background-color: var(--gray);
+  background-color: var(--black);
+  color: var(--white);
   margin-top: 200px;
   margin-left: 10px;
+}
+
+.link_logout {
+  color: var(--white);
 }
 
 .btn2 {
