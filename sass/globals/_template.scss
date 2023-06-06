@@ -117,14 +117,23 @@ table{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
-    :nth-child(1){
-        grid-row: span 5;
+    :first-child{
+        grid-row: span 8;
     }
+    :last-child{
+        grid-row: span 8;
+    } 
 }
 .third-child{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
+    :first-child{
+        grid-row: span 8;
+    }
+    :last-child{
+        grid-row: span 8;
+    } 
 }
 
 .possession,.average,.win-possession,.trafert-badget{

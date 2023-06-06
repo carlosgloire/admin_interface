@@ -140,14 +140,23 @@ table tbody th, table td {
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
 }
-.second-child :nth-child(1) {
-  grid-row: span 5;
+.second-child :first-child {
+  grid-row: span 8;
+}
+.second-child :last-child {
+  grid-row: span 8;
 }
 
 .third-child {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
+}
+.third-child :first-child {
+  grid-row: span 8;
+}
+.third-child :last-child {
+  grid-row: span 8;
 }
 
 .possession, .average, .win-possession, .trafert-badget {
