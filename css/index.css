@@ -181,12 +181,14 @@ table tbody th, table td {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 200px;
+  grid-row: span 3;
 }
 .shedule-match div {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  margin: 5px;
+  border: 1px solid red;
 }
 
 *,
