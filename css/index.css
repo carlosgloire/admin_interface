@@ -17,7 +17,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0%;
   background-color: var(--skyblue);
   font-family: "Sen", sans-serif;
   background-image: url(../../Images/background.png);
