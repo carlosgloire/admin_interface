@@ -68,11 +68,8 @@ section {
 }
 .bloc_user .user_profile {
   display: flex;
-  position: absolute;
-  margin-top: -5px;
-  margin-right: 150px;
+  flex-direction: row;
   align-items: center;
-  right: 0;
   gap: 10px;
 }
 .bloc_user img {
@@ -193,11 +190,6 @@ a {
   color: var(--black);
   text-decoration: none;
   align-items: center;
-  font-size: 1.2rem;
-}
-
-i {
-  font-size: 1.3rem;
 }
 
 h1 {

@@ -53,11 +53,8 @@ section{
     }
     .user_profile{
         display: flex;
-        position: absolute;
-        margin-top: -5px;
-        margin-right: 150px;
+        flex-direction: row;
         align-items: center;
-        right: 0;
         gap: 10px;
     }
     & img{
