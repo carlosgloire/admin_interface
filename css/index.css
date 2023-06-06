@@ -143,9 +143,6 @@ table tbody th, table td {
 .second-child :nth-child(1) {
   grid-row: span 5;
 }
-.second-child :nth-child(2) {
-  grid-row: span 5;
-}
 
 .third-child {
   display: grid;
