@@ -140,7 +140,7 @@ table tbody th, table td {
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
 }
-.second-child :nth-child(1) {
+.second-child :nth-ch {
   grid-row: span 4;
 }
 .second-child :nth-child(2) {

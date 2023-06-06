@@ -118,7 +118,7 @@ table{
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
 
-    :nth-child(1){
+    :nth-last-child(){
         grid-row: span 4;
     }
     :nth-child(2){
