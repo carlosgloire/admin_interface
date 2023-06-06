@@ -141,10 +141,10 @@ table tbody th, table td {
   gap: 15px;
 }
 .second-child :first-child {
-  grid-row: span 8;
+  grid-row: span 10;
 }
 .second-child :last-child {
-  grid-row: span 8;
+  grid-row: span 10;
 }
 
 .third-child {
@@ -153,10 +153,10 @@ table tbody th, table td {
   gap: 15px;
 }
 .third-child :first-child {
-  grid-row: span 8;
+  grid-row: span 10;
 }
 .third-child :last-child {
-  grid-row: span 8;
+  grid-row: span 10;
 }
 
 .possession, .average, .win-possession, .trafert-badget {
@@ -181,7 +181,6 @@ table tbody th, table td {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  grid-row: span 3;
 }
 .shedule-match div {
   display: flex;
