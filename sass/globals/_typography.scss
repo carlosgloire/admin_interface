@@ -36,10 +36,12 @@ h1{
 }
 
 .btn2{
+    font-weight: bolder;
+    font-family: u.$font;
     padding: 5px;
-    border-radius: 4px;
+    border-radius: 5px;
     border: none;
-    padding: 10px 20px;
+    padding: 8px 10px;
     background-color: var(--white);
 }
 
