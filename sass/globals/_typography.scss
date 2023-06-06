@@ -21,21 +21,20 @@ h1{
     border: none;
     padding: 7px 20px;
     border-radius: 25px;
-    background-color: var(--black);
-    color: var(--white);
+    font-weight: bolder;
+    font-family: u.$font;
+    border: 1px solid var(--blending_blue);
+    background-color: var(--bluehover);
     margin-top: 200px;
     margin-left: 10px;
     &:hover{
-        color: var(--black);
         transition: 0.5s;
+        border: 1px solid var(--blending_blue);
         background-color: var(--white);
-        border: 1px solid var(--black)
     }
     
 }
-.link_logout{
-    color: var(--white);
-}
+
 .btn2{
     padding: 5px;
     border-radius: 4px;

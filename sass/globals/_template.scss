@@ -22,14 +22,14 @@ section{
     background-color: var(--principalcoloropacity);
 }
 
-.bloc{
+.bloc-container-all{
     display: grid;
     grid-template-columns: 20% auto;
     border-radius: 20px;
     background-color: var(--principalcolor);
 }
 
-.bloc-one{
+.bloc-nav{
    box-shadow: 0.5px 0 0 0 var(--gray);
    padding-top: 15px;
     .dashboard{
@@ -65,10 +65,11 @@ section{
     }
     & img{
         border-radius: 50%;
-        border: 2px solid white;
-        width: 40px; 
+        border: 2px solid var(--white);
+        width: 30px; 
     }
 }
+
 .bloc-grid-template{
     display: grid;
     grid-template-columns: auto auto;
