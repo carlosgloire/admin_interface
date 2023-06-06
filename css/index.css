@@ -46,10 +46,12 @@ section {
 .bloc-one .dashboard, .bloc-one div:hover {
   background-color: var(--bluehover);
   border-left: 3px solid var(--blending_blue);
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .bloc-one div {
   margin: 10px;
+  width: 96%;
   padding: 8px;
 }
 .bloc-one div:hover {
