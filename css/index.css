@@ -181,7 +181,6 @@ table tbody th, table td {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  grid-row: span 3;
 }
 .shedule-match div {
   display: flex;
