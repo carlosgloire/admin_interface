@@ -186,7 +186,6 @@ table tbody th, table td {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  grid-row: span 9;
 }
 
 *,
