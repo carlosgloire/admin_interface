@@ -2,6 +2,7 @@
 @use '../utils/mixins' as *;
 
 body{
+    border: 30px solid red;
     width: 100%;
     display: flex;
     justify-content: center;
