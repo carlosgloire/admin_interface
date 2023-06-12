@@ -88,6 +88,7 @@ section {
   flex-direction: row;
   align-items: center;
   gap: 10px;
+  -webkit-column-gap: 10px;
 }
 .bloc_user img {
   border-radius: 50%;
@@ -190,6 +191,7 @@ table tbody th, table td {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
+  -webkit-column-gap: 15px;
 }
 .second-child :first-child {
   grid-row: span 10;
@@ -202,6 +204,7 @@ table tbody th, table td {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
+  -webkit-column-gap: 15px;
 }
 .third-child :first-child {
   grid-row: span 10;
@@ -214,6 +217,7 @@ table tbody th, table td {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  -webkit-column-gap: 20px;
   align-items: center;
   justify-content: center;
   padding: 10px;
@@ -237,6 +241,7 @@ table tbody th, table td {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  -webkit-column-gap: 20px;
 }
 
 .bloc_scroll {
@@ -329,6 +334,7 @@ h1 {
     margin: auto;
     display: grid;
     overflow: auto;
+    -webkit-overflow-scrolling: auto;
     height: 100vh;
     width: 100%;
     padding: 10px;
