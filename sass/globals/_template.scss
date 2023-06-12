@@ -109,6 +109,31 @@ section{
        
     }
 }
+.loading{
+    margin-top: 6px;
+    .statistic{
+        margin: auto;
+        width: 85%;
+        height: 10px;
+        overflow: hidden;
+        background-color: var(--gray);
+        border-radius: 20px;
+      }
+      .statistic_progress{
+        width: 75%;
+        height: 100%;
+        background-color:var(--bluehover);
+        animation: statistic 2s;
+      }
+      @keyframes statistic{
+        0%{
+          width: 0%;
+        }
+        100%{
+          width: 75%;
+        }
+      }
+}
 .tableau{
     @extend .inter1;
     margin-top: 15px;
