@@ -26,6 +26,7 @@ body{
         width: 200px;
         height: 100vh;
         display: block;
+        z-index: 10;
         &.mobile-menu{
           margin-left: 15px;
         }
