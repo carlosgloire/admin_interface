@@ -341,6 +341,7 @@ h1 {
     width: 100%;
     padding: 10px;
     padding-top: 2px;
+    z-index: 10;
   }
   .nav_bar .links_nav {
     top: 8px;
