@@ -54,6 +54,7 @@ section {
   grid-template-columns: 20% auto;
   border-radius: 20px;
   background-color: var(--principalcolor);
+  z-index: 10;
 }
 
 .bloc-nav, .nav_bar {
@@ -341,7 +342,6 @@ h1 {
     width: 100%;
     padding: 10px;
     padding-top: 2px;
-    z-index: 10;
   }
   .nav_bar .links_nav {
     top: 8px;

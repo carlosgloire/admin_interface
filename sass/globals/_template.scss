@@ -44,6 +44,7 @@ section{
     grid-template-columns: 20% auto;
     border-radius: 20px;
     background-color: var(--principalcolor);
+    z-index: 10;
 }
 .bloc-nav{
    box-shadow: 0.5px 0 0 0 var(--gray);
